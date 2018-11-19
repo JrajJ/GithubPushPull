@@ -17,7 +17,9 @@ public class MainActivity extends AppCompatActivity
         //Fourth Commit
         //Fifth Commit
 
-        int a;
+        int a=10, b = 10;
+        int c = a+b;
+
 
     }
 }
