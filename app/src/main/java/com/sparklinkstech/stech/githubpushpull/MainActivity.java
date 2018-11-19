@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onResume()
     {
-        super.onResume();
-        Log.e("onResume >> ","");
+        super.onResume();        Log.e("onResume >> ","");
     }
 }
