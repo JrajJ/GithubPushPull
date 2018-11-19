@@ -2,6 +2,7 @@ package com.sparklinkstech.stech.githubpushpull;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -11,6 +12,7 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.e("onCreate >> ","");
         //Initial Commit
         //Second Commit
         //Second Commit
@@ -21,5 +23,15 @@ public class MainActivity extends AppCompatActivity
         int c = a+b;
 
 
+        Log.e("Sum = ",""+c);
+
+
+    }
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+        Log.e("onResume >> ","");
     }
 }
