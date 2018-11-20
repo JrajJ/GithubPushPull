@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity
 
         int a=10, b = 10;
         int c = a+b;
+        int d = c;
         Log.e("onDemo >> ","");
 
         Log.e("Sum = ",""+c);
